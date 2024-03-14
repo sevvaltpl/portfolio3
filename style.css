@@ -238,6 +238,7 @@ section {
 .technical-bars .bar .info span {
   font-size: 1.7rem;
   font-weight: 500;
+  cursor: pointer;
   animation: showText 0.5s 1s linear forwards;
   opacity: 0;
 }
@@ -285,7 +286,7 @@ section {
   padding: 1px 8px;
   background-color: #000000;
   color: #fff;
-  font-size: 0.8rem;
+  font-size: 1rem;
   border-radius: 0.5rem;
   top: -28px;
   right: -20px;

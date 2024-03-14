@@ -217,23 +217,23 @@ section {
   margin: 1rem 0 3rem;
 }
 .skills-container {
-  width: 700px;
-  height: 600px;
+  width: 400;
+  height: 500;
   padding: 75px 90px;
-  margin-left: 340px;
+  margin-left: 3.4rem;
 }
 .technical-bars .bar {
   font-size: 1.9rem;
-  margin-top: 60px;
+  margin-top: 6rem;
 }
 .technical-bars .bar:first-child {
   margin-top: 0;
 }
 .technical-bars .bar:last-child {
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 .technical-bars .bar .info {
-  margin-bottom: 5px;
+  margin-bottom: 0.5rem;
 }
 .technical-bars .bar .info span {
   font-size: 1.7rem;
@@ -243,7 +243,7 @@ section {
 }
 .technical-bars .bar .progress-line {
   position: relative;
-  border-radius: 10px;
+  border-radius: 0.5rem;
   width: 100%;
   height: 5px;
   background-color: #000000;
@@ -286,7 +286,7 @@ section {
   background-color: #000000;
   color: #fff;
   font-size: 0.8rem;
-  border-radius: 5px;
+  border-radius: 0.5rem;
   top: -28px;
   right: -20px;
   animation: showText 0.5s 1s linear forwards;
@@ -326,7 +326,6 @@ section {
     opacity: 1;
   }
 }
-
 .portfolio h2 {
   margin-bottom: 4rem;
 }
@@ -465,6 +464,9 @@ section {
     padding: 10rem 3%;
   }
   .services {
+    padding: 7rem;
+  }
+  .skills {
     padding: 7rem;
   }
   .portfolio {

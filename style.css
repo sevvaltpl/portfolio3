@@ -22,7 +22,21 @@ html {
   overflow-x: hidden;
 }
 body {
-  background-image: linear-gradient(to right top, #8f52ae, #9662b6, #9d71be, #a480c5, #ac8fcc, #ac8ecf, #ab8dd1, #ab8cd4, #a27ad2, #9968d0, #9156cd, #8841ca);
+  background-image: linear-gradient(
+    to right top,
+    #8f52ae,
+    #9662b6,
+    #9d71be,
+    #a480c5,
+    #ac8fcc,
+    #ac8ecf,
+    #ab8dd1,
+    #ab8cd4,
+    #a27ad2,
+    #9968d0,
+    #9156cd,
+    #8841ca
+  );
 }
 
 section {
@@ -58,7 +72,7 @@ section {
 
 .navbar a:hover,
 .navbar a.active {
-  color: var(--text-color);
+  color: var(--main-color);
 }
 
 #menu-icon {
@@ -296,7 +310,7 @@ section {
 .progress-line.react span::after {
   content: "70%";
 }
-.progress-line span::before{
+.progress-line span::before {
   content: "";
   position: absolute;
   width: 0;
